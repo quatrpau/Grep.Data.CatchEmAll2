@@ -1,15 +1,26 @@
-# Part 1
+Part 1
 ### a)
-
-
-
-
+ggrep -P "beed.*rill" filescan_00.1 > beedrill.txt
+ggrep -P "blas.*toise" filescan_00.1 > blastoise.txt
+ggrep -P "bulb.*asaur" filescan_00.1 > bulbasaur.txt
+ggrep -P "butt.*erfree" filescan_00.1 > butterfree.txt
+ggrep -P "char.*izard" ../forest/filescan_00.2 > charizard.txt
+ggrep -P "char.*mander" ../forest/filescan_00.2 > charmander.txt
+ggrep -P "char.*meleon" ../forest/filescan_00.2 > charmeleon.txt
+ggrep -P "ivys.*aur" ../forest/filescan_00.3 > ivysaur.txt
+ggrep -P "jigg.*lypuff" ../forest/filescan_00.3 > jigglypuff.txt
+ggrep -P "meow.*th" ../forest/filescan_00.3 > meowth.txt
+ggrep -P "pika.*chu" ../forest/filescan_00.3 > pikachu.txt
+ggrep -P "psyd.*uck" ../forest/filescan_00.4 > psyduck.txt
+ggrep -P "squi.*rtle" ../forest/filescan_00.4 > squirtle.txt
+ggrep -P "venu.*saur" ../forest/filescan_00.4 > venusaur.txt
+ggrep -P "wart.*ortle" ../forest/filescan_00.4 > wartortle.txt
 ### b)
 
 
-
+see folder
 ### c)
-
+1;1;1;1;2;2;2;3;3;3;3;4;4;4;4
 
 
 
@@ -24,15 +35,15 @@
 
 # Part 2
 ### a)
-
-
+15
+ggrep -R -l "." .
 
 
 
 
 ### b)
-
-
+charizard; beedrill; pikachu
+ggrep -drecurse -c "." .
 
 
 
